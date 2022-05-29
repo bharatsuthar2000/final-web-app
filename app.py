@@ -12,7 +12,6 @@ from sklearn.neighbors import NearestNeighbors
 corrMatrix = pickle.load(open('corrMatrix.pkl','rb'))
 pivot_table = pickle.load(open('pivotKNN.pkl','rb'))
 movies = pickle.load(open('movies.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
 
 #LOAD DATASETS - CSV
 links = pd.read_csv('dataset/links.csv')
